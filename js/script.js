@@ -1,0 +1,12 @@
+console.log(alert('Xush kelibsiz !'));
+console.log(prompt("Ismingiz ?"));
+console.log(prompt("Familyangiz ?"));
+console.log(prompt("Yoshingiz ?"));
+console.log(prompt("Tug'ilgan kuningiz ?"));
+console.log(prompt("Telefon raqamingiz ?"));
+console.log(prompt("E-mail yoki g-mailingizni kiriting ?"));
+console.log(prompt("Manzilingiz ?"));
+console.log(prompt("Shaxsiy sharoitingiz ?"));
+console.log(prompt("Ish joyingiz ?"));
+console.log(prompt("O'quv joyingiz ?"));
+console.log(alert("Malumotlar uchun raxmat !"));
