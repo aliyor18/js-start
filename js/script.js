@@ -1,12 +1,40 @@
-console.log(alert('Xush kelibsiz !'));
-console.log(prompt("Ismingiz ?"));
-console.log(prompt("Familyangiz ?"));
-console.log(prompt("Yoshingiz ?"));
-console.log(prompt("Tug'ilgan kuningiz ?"));
-console.log(prompt("Telefon raqamingiz ?"));
-console.log(prompt("E-mail yoki g-mailingizni kiriting ?"));
-console.log(prompt("Manzilingiz ?"));
-console.log(prompt("Shaxsiy sharoitingiz ?"));
-console.log(prompt("Ish joyingiz ?"));
-console.log(prompt("O'quv joyingiz ?"));
-console.log(alert("Malumotlar uchun raxmat !"));
+var intro = "Xush kelibsiz !";
+var name = "Ismingiz ?";
+var lastName = "Familyangiz ?";
+var age = "Yoshingiz ?";
+var birthday = "Tug'ilgan kuningiz ?";
+var phoneNumber = "Telefon raqamingiz ?";
+var gmail = "E-mail yoki g-mailingizni kiriting ?";
+var address = "Manzilingiz ?";
+var conditions = "Shaxsiy sharoitingiz ?";
+var workplace = "Ish joyingiz ?";
+var studyplace = "O'quv joyingiz ?";
+var footer = "Malumotlar uchun raxmat !";
+
+
+
+var alertIntro = alert(intro);
+var answerName = prompt(name).trim();
+var answerLastName = prompt(lastName).trim();
+var answerAge = prompt(age).trim();
+var answerBirthday = prompt(birthday).trim();
+var answerPhoneNumber = prompt(phoneNumber).trim();
+var answerGmail = prompt(gmail).trim();
+var answerAddress = prompt(address).trim();
+var answerConditions = prompt(conditions).trim();
+var answerWorkplace = prompt(workplace).trim();
+var answerStudyplace = prompt(studyplace).trim();
+var alertFooter = alert(footer);
+
+console.log(alertIntro);
+console.log(answerName);
+console.log(answerLastName);
+console.log(answerAge);
+console.log(answerBirthday);
+console.log(answerPhoneNumber);
+console.log(answerGmail);
+console.log(answerAddress);
+console.log(answerConditions);
+console.log(answerWorkplace);
+console.log(answerStudyplace);
+console.log(alertFooter);
